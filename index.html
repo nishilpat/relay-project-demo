@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthropic Sales Workflow Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="site-header">
+      <a class="mark deal-orbit-mark" href="#" aria-label="workflow demo home">
+        <span class="deal-dot deal-orange"></span>
+        <span class="deal-dot deal-blue"></span>
+        <span class="deal-dot deal-green"></span>
+      </a>
+      <nav class="top-links" aria-label="Primary links">
+        <a href="#workflow-demo">Demo</a>
+        <a href="https://github.com/nishilpat" target="_blank" rel="noopener">Repo</a>
+      </nav>
+      <a class="login-link" href="https://nishilp.netlify.app/" target="_blank" rel="noopener">Contact</a>
+    </header>
+
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hairline" aria-hidden="true"></div>
+      <h1 id="page-title">Hi, This is my Sales Relay Workflow.</h1>
+      <p class="subtitle">Built for an Anthropic Sales Demo.</p>
+
+      <p class="copy">
+          Relay gives Account Executives two lightweight surfaces<br> for turning customer conversations into follow-through.
+      </p>
+
+      <div class="surfaces-row">
+  <div class="surface-card">
+    <div class="surface-card-icon">🔗</div>
+    <h3>Customer Relay Link</h3>
+    <p>
+      An AE shares a personal intake link after a call.
+      Customers share questions, blockers, and feature requests — without installing anything.
+    </p>
+    <span class="surface-tag">Share with customers</span>
+  </div>
+
+  <div class="surface-card">
+    <div class="surface-card-icon">⌨️</div>
+    <h3>AE macOS Command Center</h3>
+    <p>
+      The AE reviews incoming customer asks, pastes post-call notes,
+      and executes from Claude-assisted workflows.
+    </p>
+    <span class="surface-tag">AE-only · macOS menu bar</span>
+  </div>
+</div>
+
+
+      <p class="features">
+        Built with Claude AI, SwiftUI, SQLite, Slack webhooks,<br> Cloudflare Workers, Google Sheets API, and ElevenLabs API.
+      </p>
+
+      <a class="soft-link" href="#workflow-demo">Watch the Workflow Demo ↓</a>
+    </section>
+
+    <section class="loom-section" id="workflow-demo" aria-labelledby="demo-title">
+      <div class="section-kicker">Workflow Demo</div>
+      
+      <p>
+        Designed around a real AE follow-up pain point.<br>
+        Human relationships + Claude-powered execution.<br>
+      </p>
+      <div class="loom-frame">
+  <div class="loom-embed-slot">
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+      <div class="video-placeholder">
+        <p>Demo video placeholder — final walkthrough will be added here.</p>
+    </div>
+    </div>
+  </div>
+</div>
+      <p class="embed-instructions">
+        Feel free to leave a comment on the video link directly.
+      </p>
+    </section>
+
+    <section class="bottom-play" id="workflow-lab" aria-labelledby="play-title">
+  <div class="section-kicker">workflow lab</div>
+  <h2 id="play-title">What I learned about Claude.</h2>
+  <p class="lab-intro">Keeping CLAUDE.md and AGENTS.md visible gave me a north star that I could revisit, edit, and delete from. Providing AE specific context to Sonnet improved not only model output but actioning next steps.</p>
+
+  <div class="claude-stack" aria-label="What I learned about Claude">
+
+  <article class="claude-card card-context" tabindex="0">
+    <div class="claude-card-art" aria-hidden="true">
+      <div class="card-meta">
+        <span class="card-pill">Claude Code</span>
+        <span class="card-pill subtle">Design</span>
+      </div>
+      <svg class="card-svg" viewBox="0 0 320 150" fill="none">
+        <g stroke="currentColor" stroke-width="1.4" opacity="0.55">
+          <line x1="20"  y1="20" x2="20"  y2="130"/>
+          <line x1="38"  y1="32" x2="38"  y2="130"/>
+          <line x1="56"  y1="22" x2="56"  y2="130"/>
+          <line x1="74"  y1="40" x2="74"  y2="130"/>
+          <line x1="92"  y1="28" x2="92"  y2="130"/>
+          <line x1="228" y1="28" x2="228" y2="130"/>
+          <line x1="246" y1="40" x2="246" y2="130"/>
+          <line x1="264" y1="22" x2="264" y2="130"/>
+          <line x1="282" y1="32" x2="282" y2="130"/>
+          <line x1="300" y1="20" x2="300" y2="130"/>
+        </g>
+        <circle cx="160" cy="78" r="42" fill="currentColor" opacity="0.18"/>
+        <circle cx="160" cy="78" r="22" fill="currentColor" opacity="0.45"/>
+        <circle cx="160" cy="78" r="9"  fill="currentColor"/>
+      </svg>
+    </div>
+    <div class="claude-card-body">
+      <h3>Planning Mode</h3>
+      <p>Claude Code helped me inspect the open-source project first, then map sales-specific workflows to CLAUDE.md / AGENTS.md as the build brief.</p>
+    </div>
+  </article>
+
+  <article class="claude-card card-artifacts" tabindex="0">
+    <div class="claude-card-art" aria-hidden="true">
+      <div class="card-meta">
+        <span class="card-pill">Claude AI</span>
+        <span class="card-pill subtle">Context</span>
+      </div>
+      <svg class="card-svg" viewBox="0 0 320 150" fill="none">
+        <g fill="currentColor">
+          <!-- Pixel field resolving from soft to sharp, evoking Anthropic's grid -->
+          <g opacity="0.22">
+            <rect x="20"  y="14" width="12" height="12" rx="1.5"/>
+            <rect x="38"  y="14" width="12" height="12" rx="1.5"/>
+            <rect x="74"  y="14" width="12" height="12" rx="1.5"/>
+            <rect x="110" y="14" width="12" height="12" rx="1.5"/>
+            <rect x="146" y="14" width="12" height="12" rx="1.5"/>
+            <rect x="200" y="14" width="12" height="12" rx="1.5"/>
+            <rect x="236" y="14" width="12" height="12" rx="1.5"/>
+            <rect x="272" y="14" width="12" height="12" rx="1.5"/>
+            <rect x="20"  y="50" width="12" height="12" rx="1.5"/>
+            <rect x="56"  y="50" width="12" height="12" rx="1.5"/>
+            <rect x="92"  y="50" width="12" height="12" rx="1.5"/>
+            <rect x="164" y="50" width="12" height="12" rx="1.5"/>
+            <rect x="218" y="50" width="12" height="12" rx="1.5"/>
+            <rect x="272" y="50" width="12" height="12" rx="1.5"/>
+            <rect x="38"  y="86" width="12" height="12" rx="1.5"/>
+            <rect x="74"  y="86" width="12" height="12" rx="1.5"/>
+            <rect x="128" y="86" width="12" height="12" rx="1.5"/>
+            <rect x="182" y="86" width="12" height="12" rx="1.5"/>
+            <rect x="254" y="86" width="12" height="12" rx="1.5"/>
+            <rect x="290" y="86" width="12" height="12" rx="1.5"/>
+          </g>
+          <g opacity="0.55">
+            <rect x="56"  y="14" width="12" height="12" rx="1.5"/>
+            <rect x="128" y="14" width="12" height="12" rx="1.5"/>
+            <rect x="218" y="14" width="12" height="12" rx="1.5"/>
+            <rect x="38"  y="50" width="12" height="12" rx="1.5"/>
+            <rect x="128" y="50" width="12" height="12" rx="1.5"/>
+            <rect x="200" y="50" width="12" height="12" rx="1.5"/>
+            <rect x="254" y="50" width="12" height="12" rx="1.5"/>
+            <rect x="92"  y="86" width="12" height="12" rx="1.5"/>
+            <rect x="146" y="86" width="12" height="12" rx="1.5"/>
+            <rect x="218" y="86" width="12" height="12" rx="1.5"/>
+            <rect x="272" y="86" width="12" height="12" rx="1.5"/>
+          </g>
+          <!-- Sharp focal cluster, Anthropic-orange feel via currentColor on cream card -->
+          <rect x="92"  y="14"  width="12" height="12" rx="1.5"/>
+          <rect x="164" y="14"  width="12" height="12" rx="1.5"/>
+          <rect x="74"  y="50"  width="12" height="12" rx="1.5"/>
+          <rect x="110" y="50"  width="12" height="12" rx="1.5"/>
+          <rect x="146" y="50"  width="12" height="12" rx="1.5"/>
+          <rect x="182" y="50"  width="12" height="12" rx="1.5"/>
+          <rect x="236" y="50"  width="12" height="12" rx="1.5"/>
+          <rect x="56"  y="86"  width="12" height="12" rx="1.5"/>
+          <rect x="110" y="86"  width="12" height="12" rx="1.5"/>
+          <rect x="164" y="86"  width="12" height="12" rx="1.5"/>
+          <rect x="200" y="86"  width="12" height="12" rx="1.5"/>
+          <rect x="236" y="86"  width="12" height="12" rx="1.5"/>
+        </g>
+      </svg>
+    </div>
+    <div class="claude-card-body">
+      <h3>AE Context is Leverage</h3>
+      <p>Claude got sharper when the prompt matched real AE work: blockers, stakeholders, urgency, next steps, and deal risk.</p>
+    </div>
+  </article>
+
+  <article class="claude-card card-reasoning" tabindex="0">
+    <div class="claude-card-art" aria-hidden="true">
+      <div class="card-meta">
+        <span class="card-pill">Claude Cowork</span>
+        <span class="card-pill subtle">Dispatch</span>
+      </div>
+      <svg class="card-svg" viewBox="0 0 320 150" fill="none">
+        <g stroke="currentColor" fill="none" stroke-width="1.6">
+          <path d="M10 30 Q80 12 160 38 T310 30" opacity="0.95"/>
+          <path d="M10 50 Q80 30 160 58 T310 50" opacity="0.78"/>
+          <path d="M10 70 Q80 48 160 78 T310 70" opacity="0.62"/>
+          <path d="M10 90 Q80 66 160 98 T310 90" opacity="0.48"/>
+          <path d="M10 110 Q80 84 160 118 T310 110" opacity="0.35"/>
+          <path d="M10 130 Q80 102 160 138 T310 130" opacity="0.22"/>
+        </g>
+        <circle cx="62"  cy="34" r="6" fill="currentColor"/>
+        <circle cx="258" cy="34" r="6" fill="currentColor"/>
+      </svg>
+    </div>
+    <div class="claude-card-body">
+      <h3>Claude as a Coworker</h3>
+      <p>Reasoned through workflow scenarios and managed Cowork tasks via Dispatch on my phone! Specifically utilized the Gamma + Google connectors for this demo.</p>
+    </div>
+  </article>
+
+  <article class="claude-card card-human" tabindex="0">
+    <div class="claude-card-art" aria-hidden="true">
+      <div class="card-meta">
+        <span class="card-pill">Claude AI</span>
+        <span class="card-pill subtle">Human Loop</span>
+      </div>
+      <svg class="card-svg" viewBox="0 0 320 150" fill="none">
+        <g stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+          <g opacity="0.5">
+            <line x1="22"  y1="20" x2="22"  y2="38"/>
+            <line x1="22"  y1="46" x2="22"  y2="64"/>
+            <line x1="22"  y1="72" x2="22"  y2="90"/>
+            <line x1="22"  y1="98" x2="22"  y2="116"/>
+            <line x1="46"  y1="28" x2="46"  y2="46"/>
+            <line x1="46"  y1="54" x2="46"  y2="72"/>
+            <line x1="46"  y1="80" x2="46"  y2="98"/>
+            <line x1="46"  y1="106" x2="46" y2="124"/>
+          </g>
+          <g opacity="1">
+            <line x1="100" y1="20" x2="100" y2="38"/>
+            <line x1="100" y1="46" x2="100" y2="64"/>
+            <line x1="100" y1="72" x2="100" y2="90"/>
+            <line x1="100" y1="98" x2="100" y2="116"/>
+            <line x1="124" y1="28" x2="124" y2="46"/>
+            <line x1="124" y1="54" x2="124" y2="72"/>
+            <line x1="124" y1="80" x2="124" y2="98"/>
+            <line x1="124" y1="106" x2="124" y2="124"/>
+            <line x1="148" y1="20" x2="148" y2="38"/>
+            <line x1="148" y1="46" x2="148" y2="64"/>
+            <line x1="148" y1="72" x2="148" y2="90"/>
+            <line x1="148" y1="98" x2="148" y2="116"/>
+            <line x1="172" y1="28" x2="172" y2="46"/>
+            <line x1="172" y1="54" x2="172" y2="72"/>
+            <line x1="172" y1="80" x2="172" y2="98"/>
+            <line x1="172" y1="106" x2="172" y2="124"/>
+            <line x1="196" y1="20" x2="196" y2="38"/>
+            <line x1="196" y1="46" x2="196" y2="64"/>
+            <line x1="196" y1="72" x2="196" y2="90"/>
+            <line x1="196" y1="98" x2="196" y2="116"/>
+          </g>
+          <g opacity="0.5">
+            <line x1="250" y1="28" x2="250" y2="46"/>
+            <line x1="250" y1="54" x2="250" y2="72"/>
+            <line x1="250" y1="80" x2="250" y2="98"/>
+            <line x1="250" y1="106" x2="250" y2="124"/>
+            <line x1="274" y1="20" x2="274" y2="38"/>
+            <line x1="274" y1="46" x2="274" y2="64"/>
+            <line x1="274" y1="72" x2="274" y2="90"/>
+            <line x1="274" y1="98" x2="274" y2="116"/>
+            <line x1="298" y1="28" x2="298" y2="46"/>
+            <line x1="298" y1="54" x2="298" y2="72"/>
+            <line x1="298" y1="80" x2="298" y2="98"/>
+            <line x1="298" y1="106" x2="298" y2="124"/>
+          </g>
+        </g>
+        <!-- Three orbs nodding to your logo -->
+        <circle cx="148" cy="72" r="7" fill="#f25314"/>
+        <circle cx="172" cy="60" r="6" fill="#1398d4"/>
+        <circle cx="172" cy="84" r="6" fill="#50ef8d"/>
+      </svg>
+    </div>
+    <div class="claude-card-body">
+      <h3>Permissions</h3>
+      <p>Claude accelerates the work, but the AE stays in control before anything is copied, sent, or shared.</p>
+    </div>
+  </article>
+
+</div>
+</section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
